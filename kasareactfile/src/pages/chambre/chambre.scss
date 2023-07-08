@@ -1,0 +1,218 @@
+@import "../../assets/styles/_variables.scss" ;
+@import "../../assets/styles/_flex.scss";
+section{
+    width:90%;
+    margin: auto;
+    div{
+        .figureOne{
+            position:relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            //height: 273px;
+            img{
+                height: 255px;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+                filter: brightness(70%) ;
+            }
+           // div{
+           //     display:flex ; 
+              //  justify-content: end;
+                .fa-chevron-left{
+                    position: absolute;
+                    font-size:40px ;
+                    color: #ffffff ;
+                   // bottom: 50%;
+                    cursor: pointer;
+                    margin-left: 10% ;
+                    z-index: 1;
+                }
+                .fa-angle-right{
+                    position: absolute;
+                    font-size:40px ;
+                    color: #ffffff ;
+                  //  bottom: 50%;
+                    cursor: pointer;
+                    margin-left: 85% ;
+                    z-index: 1;
+                }
+           // }
+        }
+    }
+    div{
+        padding-top: 10px;
+        h1{
+            padding-top: 10px;
+            font-size: 18px;
+            color:$primary ;
+        }
+        p{
+            font-size: 14px;
+            color:$primary ;
+        }
+        ul{
+            display: flex;
+            padding-top: 15px;
+            //justify-content: start;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        li{
+           // width:84px ;
+           text-align: center;
+            color:#ffffff ;
+           // padding: 4px ;
+            //margin-bottom: 10px;
+            width: 84px;
+            height: 18px;
+            border-radius: 5px;
+            background-color: $primary;
+            font-size: 10px;
+        }
+    }
+    .etoileProfil{
+        display: flex;
+       flex-direction: row-reverse;
+        justify-content: space-between;
+        div{
+            figure{
+                display: flex;
+                align-items: center;
+                gap:5px ;
+                
+                figcaption{
+                    width: 80px;
+                    text-align: right;
+                    font-size: 12px;
+
+                }
+                img{
+                    border-radius:100% ;
+                    width: 32px;
+                    height: 32px;
+
+                }
+            }
+        }
+        div{
+            i{
+                letter-spacing:5px;
+                font-size: 13px;
+               // color:#E3E3E3 ;
+            }
+        }
+    }
+
+
+}
+.starRed{
+    color:$primary ;
+}
+
+.equipemntDescription{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    .barreRouge{
+        margin-top: 15px;
+       // margin: auto;
+        margin-bottom: 20px;
+        background-color: $sectionBack;
+        width: 100%;
+        //max-width:582px ;
+        h2{
+            display: flex;
+            align-items: center;
+            height: 47px;
+            border-radius: 5px;
+            color:#ffffff;
+            //text-align: center;
+            background-color: $primary;
+            display: flex;
+            justify-content: space-between;
+            text-indent:10px ;
+        }
+    }
+}
+.upDown{
+    color:#ffffff ;
+    margin-right: 40px;
+   // text-indent: -60px
+}
+.down{
+    transform: rotate(180deg);
+}
+.etoileColor{
+    color:#E3E3E3 ;
+}
+
+@media only screen and  (min-width: 755px) {
+    section{
+    div{
+        h1{
+            font-size: 36px;
+        }
+        p{
+            font-size: 18px;
+        }
+        ul{
+            display: flex;
+            padding-top: 15px;
+            //justify-content: start;
+            gap: 20px;
+
+        }
+        li{
+            width: 115px;
+            height: 25px;
+            font-size: 14px;
+        }
+    }
+    .etoileProfil{
+        display: flex;
+       flex-direction: row-reverse;
+        justify-content: space-between;
+        div{
+            figure{
+                display: flex;
+                align-items: center;
+                gap:5px ;
+                
+                figcaption{
+                    font-size: 16px;
+                }
+                img{
+                    border-radius:100% ;
+                    width: 64px;
+                    height: 64px;
+
+                }
+            }
+        }
+        div{
+            i{
+                letter-spacing:5px;
+                font-size: 18px;
+               // color:#E3E3E3 ;
+            }
+        }
+    }
+
+
+}
+.starRed{
+    color:$primary ;
+}
+
+.equipemntDescription{
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+}

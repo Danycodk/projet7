@@ -1,0 +1,17 @@
+//les elements html(ce fichier)
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+  font-family: $fontFamily;
+  -webkit-font-smoothing: antialiased;//Utilite ?
+  -moz-osx-font-smoothing: grayscale;//Utilite ?
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+//---------------------Main-----------------------

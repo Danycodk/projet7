@@ -1,0 +1,30 @@
+@import "../assets/styles/_variables.scss" ;
+@import "../assets/styles/_flex.scss";
+
+footer{
+    height: 210px;
+    max-width: 1240px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:$footerBack ;
+    margin: auto;
+    div{
+        figure{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 15px;
+            img{
+                width:122px ;
+                height: 40px;
+            }
+        }
+        p{
+            text-align: center;
+            color:#ffffff;
+            font-size: 18px;
+        }
+    }
+}
+

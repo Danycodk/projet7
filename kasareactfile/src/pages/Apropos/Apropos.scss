@@ -1,0 +1,70 @@
+@import "../../assets/styles/_variables.scss" ;
+@import "../../assets/styles/_flex.scss";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+section{
+    padding-bottom:20px ;
+    .figureApropos{
+        width: 100%;
+        //border-radius: 10px;
+        padding-bottom: 25px;
+        img{
+            height: 223px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+            filter: brightness(70%) ;
+        }
+    }
+    .barreRouge{
+        margin-top: 15px;
+        margin: auto;
+        margin-bottom: 20px;
+        background-color: $sectionBack;
+        max-width:1023px ;
+        color: $primary;
+        h2{
+            display: flex;
+            align-items: center;
+            height: 30px;
+            border-radius: 5px;
+            color:#ffffff;
+            //text-align: center;
+            font-size: 13px;
+            background-color: $primary;
+            display: flex;
+            justify-content: space-between;
+            text-indent:10px ;
+        }
+    }
+}
+
+.upDown{
+    color:#ffffff ;
+    margin-right: 40px;
+   // text-indent: -60px
+}
+.downrotate{
+    transform: rotate(180deg);
+}
+
+@media only screen and  (min-width: 755px) {
+    section{
+        .barreRouge{
+            // font-size: 24px;
+             h2{
+                 height: 47px;
+                 font-size: 24px;
+             }
+             p{
+                 font-size: 24px;
+             }
+         }
+    }
+
+
+
+}

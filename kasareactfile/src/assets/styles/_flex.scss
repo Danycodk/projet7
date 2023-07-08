@@ -1,0 +1,16 @@
+
+//justify-content
+@mixin d-flex-j-c($responsive-J-C){
+    display: flex;
+    justify-content: $responsive-J-C;
+}
+//align-center
+@mixin d-flex-a-c($response-A-C){
+    display: flex;
+    align-items: $response-A-C;
+}
+//colum
+@mixin d-flex-colum{
+    display: flex;
+    flex-direction: column;
+}

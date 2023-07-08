@@ -1,0 +1,20 @@
+//  variables 
+
+//colors
+$primary:#FF6060;
+$sectionBack:#F6F6F6;
+$footerBack: #000000;
+;
+//font-family
+//Import font-family from google-font
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100&family=Shrikhand&display=swap');
+$fontFamily: 'Montserrat', sans-serif;
+/*-------------Responsive-----------------------*/
+/*-------------Responsive-----------------------*/
+$tablette: "only screen and (min-width: 604px) ";      /* #{$tablette} */
+$desktop: "only screen and (min-width: 992px) ";
+////////////////////////////////////////
+a{
+    color: inherit;
+    text-decoration: none;
+}

@@ -1,0 +1,38 @@
+@import "../../assets/styles/_variables.scss" ;
+@import "../../assets/styles/_flex.scss";
+.errorSection{
+    color:$primary ;
+    height: 560px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+   gap:15px ;
+    div{
+        img{
+            width:196px ; 
+            height: 99px;
+        }
+    }
+}
+@media only screen and  (min-width: 755px) {
+    .errorSection{
+
+        div{
+            img{
+                width:597px ; 
+                height: 263px;
+            }
+        }
+        h1{
+            font-size: 36px;
+        }
+        a{
+            p{
+                font-size: 18px;
+            }
+        }
+    }
+
+}
